@@ -37,7 +37,7 @@ RUN chmod +x /entrypoint.sh
 
 USER $NB_USER
 
-COPY *.ipynb ./
+#COPY *.ipynb ./
 
 # Postgresql python library
 RUN pip install --no-cache psycopg2
